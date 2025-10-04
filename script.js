@@ -171,22 +171,22 @@ class NewsInteractions {
         this.setupNewsInteractions();
     }
 
-    setupNewsInteractions() {
-        this.newsItems.forEach(item => {
-            item.addEventListener('click', (e) => {
-                const title = item.querySelector('.news-title').textContent;
-                const description = item.querySelector('.news-description').textContent;
+    // setupNewsInteractions() {
+    //     this.newsItems.forEach(item => {
+    //         item.addEventListener('click', (e) => {
+    //             const title = item.querySelector('.news-title').textContent;
+    //             const description = item.querySelector('.news-description').textContent;
                 
-                // Create a modal or expand the news item
-                this.showNewsDetails(title, description);
-            });
+    //             // Create a modal or expand the news item
+    //             this.showNewsDetails(title, description);
+    //         });
 
-            // Add hover effects
-            item.addEventListener('mouseenter', () => {
-                item.style.cursor = 'pointer';
-            });
-        });
-    }
+    //         // Add hover effects
+    //         item.addEventListener('mouseenter', () => {
+    //             item.style.cursor = 'pointer';
+    //         });
+    //     });
+    // }
 
     showNewsDetails(title, description) {
         // For now, we'll just log to console
