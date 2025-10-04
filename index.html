@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Navigation Panel -->
+        <nav class="left-panel">
+            <div class="nav-header">
+                <h3><i class="fas fa-rocket"></i> NASA Resources</h3>
+            </div>
+            <div class="nav-section">
+                <h4><i class="fas fa-globe"></i> Official Websites</h4>
+                <ul class="nav-links">
+                    <li><a href="https://www.nasa.gov" target="_blank"><i class="fas fa-home"></i> NASA Home</a></li>
+                    <li><a href="https://www.nasa.gov/mission_pages/station/main/index.html" target="_blank"><i class="fas fa-satellite"></i> International Space Station</a></li>
+                    <li><a href="https://www.nasa.gov/mission_pages/mars/main/index.html" target="_blank"><i class="fas fa-rocket"></i> Mars Exploration</a></li>
+                    <li><a href="https://www.nasa.gov/mission_pages/hubble/main/index.html" target="_blank"><i class="fas fa-eye"></i> Hubble Space Telescope</a></li>
+                    <li><a href="https://www.nasa.gov/mission_pages/jwst/main/index.html" target="_blank"><i class="fas fa-telescope"></i> James Webb Telescope</a></li>
+                </ul>
+            </div>
+            <div class="nav-section">
+                <h4><i class="fas fa-file-pdf"></i> Resources & PDFs</h4>
+                <ul class="nav-links">
+                    <li><a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-nasa-k4.html" target="_blank"><i class="fas fa-book"></i> NASA for Kids</a></li>
+                    <li><a href="https://www.nasa.gov/audience/foreducators/k-4/features/F_Educators_Guide.html" target="_blank"><i class="fas fa-graduation-cap"></i> Educator's Guide</a></li>
+                    <li><a href="https://www.nasa.gov/audience/foreducators/stem-on-station/lessons.html" target="_blank"><i class="fas fa-flask"></i> STEM Lessons</a></li>
+                    <li><a href="https://www.nasa.gov/audience/foreducators/topnav/materials/listbytype/NASA_Fact_Sheets.html" target="_blank"><i class="fas fa-chart-bar"></i> Fact Sheets</a></li>
+                    <li><a href="https://www.nasa.gov/audience/foreducators/5-8/features/F_Educators_Guide.html" target="_blank"><i class="fas fa-rocket"></i> Space Technology</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!---->
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header with App Name -->
+            <header class="app-header">
+                <h1 class="app-title">NASA Explorer</h1>
+                <p class="app-subtitle">Discover the wonders of space and science</p>
+            </header>
+
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <div class="search-box">
+                        <button class="search-btn"><i class="fas fa-search search-icon"></i></button>
+                        <input type="text" placeholder="Search NASA missions, discoveries, and more..." class="search-input">
+                    </div>
+                    <div class="search-suggestions">
+                        <span class="suggestion-tag">Mars </span>
+                        <span class="suggestion-tag">Black Holes</span>
+                        <span class="suggestion-tag">White Holes</span>
+                        <span class="suggestion-tag">Grey Holes</span>
+                        <span class="suggestion-tag">Your hole</span>
+                        <span class="suggestion-tag">Someone's hole</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Today's News Section -->
+            <section class="news-section">
+                <h2 class="section-title">Today's Space News</h2>
+                <div class="news-container">
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://images-assets.nasa.gov/image/PIA25220/PIA25220~small.jpg" alt="Mars Perseverance Rover">
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Perseverance Rover Discovers Ancient River Delta</h3>
+                            <p class="news-description">NASA's Perseverance rover has found evidence of an ancient river delta in Jezero Crater, suggesting the area was once filled with water and potentially habitable for microbial life.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://images-assets.nasa.gov/image/PIA25340/PIA25340~small.jpg" alt="James Webb Space Telescope">
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Webb Telescope Captures Stunning Galaxy Images</h3>
+                            <p class="news-description">The James Webb Space Telescope has captured unprecedented images of distant galaxies, revealing new details about the early universe and star formation processes.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://images-assets.nasa.gov/image/PIA25250/PIA25250~small.jpg" alt="International Space Station">
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Space Station Crew Conducts Spacewalk</h3>
+                            <p class="news-description">Astronauts aboard the International Space Station successfully completed a spacewalk to install new solar arrays, extending the station's power capabilities for future missions.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <div class="news-image">
+                            <img src="https://images-assets.nasa.gov/image/PIA25330/PIA25330~small.jpg" alt="Artemis Mission">
+                        </div>
+                        <div class="news-content">
+                            <h3 class="news-title">Artemis Program Prepares for Lunar Return</h3>
+                            <p class="news-description">NASA's Artemis program continues preparations for returning humans to the Moon, with new developments in lunar landing technology and astronaut training programs.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Panel -->
+        <aside class="right-panel">
+            <!-- Profile and Settings -->
+            <div class="profile-section">
+                <div class="profile-header">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h4>Space Explorer</h4>
+                        <p>Welcome back!</p>
+                    </div>
+                </div>
+                <div class="profile-actions">
+                    <button class="action-btn"><i class="fas fa-cog"></i> Settings</button>
+                    <button class="action-btn"><i class="fas fa-user"></i> Profile</button>
+                </div>
+            </div>
+
+            <!-- Chat Interface -->
+            <div class="chat-section">
+                <div class="chat-header">
+                    <h4><i class="fas fa-robot"></i> NASA Assistant</h4>
+                    <p>Ask me anything about space!</p>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <p>Hello! I'm your NASA assistant. Ask me anything about space exploration, missions, or astronomy!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input-container">
+                        <div class="chat-input">
+                            <input type="text" id="chatInput" placeholder="Ask about space..." />
+                            <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                        <div class="quick-questions">
+                            <button class="quick-btn">What is a black hole?</button>
+                            <button class="quick-btn">How do rockets work?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
